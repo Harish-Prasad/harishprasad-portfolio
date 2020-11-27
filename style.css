@@ -1,13 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
 
 :root {
-    --primary-color: #5454C7;
+    --primary-color: #7C3AED;
 }
 
 
 body {
     font-family: 'Cedarville Cursive', cursive;
 }
+
+hr {
+    margin: 2rem 0rem;
+}
+
 /* Container */
 
 .container {
