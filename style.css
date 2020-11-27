@@ -2,7 +2,9 @@
 
 :root {
     --primary-color: #7C3AED;
+    --off-white:#F3F4F6;
     --dark-gray:#687280;
+    
 }
 
 
@@ -96,3 +98,19 @@ hr {
     color: var(--dark-gray) ;
 
 }
+
+/* Sections */
+
+.section {
+    padding: 2rem;
+}
+
+.section h1 {
+    text-align:center;
+}
+
+.ow {
+    background-color: var(--dark-gray);
+}
+
+
