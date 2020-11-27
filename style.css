@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Goldman&display=swap');
 
 :root {
     --primary-color: #7C3AED;
@@ -6,7 +6,7 @@
 
 
 body {
-    font-family: 'Cedarville Cursive', cursive;
+    font-family: 'Goldman','Cedarville Cursive', cursive;
 }
 
 hr {
@@ -54,3 +54,28 @@ hr {
     padding: 0rem 0.5rem;
 }
 
+/* navigation */
+
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.navigation .nav-pills {
+    text-align: right;
+}
+
+.navigation .link {
+    color: white;
+}
+
+.navigation .link-active {
+    font-weight: bold;
+}
