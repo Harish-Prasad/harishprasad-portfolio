@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Goldman&display=swap');
 
 :root {
-    --primary-color: #7C3AED;
+    --primary-color: #D2B48C;
     --off-white: #F3F4F6;
     --dark-gray:#6B7280;
     
@@ -106,6 +106,10 @@ hr {
     padding-top: 1rem;
     color: var(--dark-gray) ;
 
+}
+
+.hero .hero-heading .heading-inverted {
+    color: var(--primary-color);
 }
 
 /* Sections */
