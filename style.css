@@ -2,8 +2,8 @@
 
 :root {
     --primary-color: #7C3AED;
-    --off-white:#F3F4F6;
-    --dark-gray:#687280;
+    --off-white: #F3F4F6;
+    --dark-gray:#6B7280;
     
 }
 
@@ -32,22 +32,22 @@ hr {
 /* links */
 
 .link {
-    box-sizing: border-box;
     text-decoration: none;
     padding: 0.5rem 1rem;
-    /* margin-top: 1rem;
-    margin-bottom: 1rem; */
-
+    width: max-content;
+    min-width: 140px;
 }
 .link-primary {
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color: white;
+
 }
 .link-secondary {
     color: var(--primary-color);
     border-radius: 00.5rem;
     border: 1px solid var(--primary-color);
+
     
 }
 
@@ -139,7 +139,7 @@ hr {
 
 .footer .footer-header {
     font-weight: bold;
-    font-size: large;
+    font-size: larger;
 }
 
 .footer ul {
